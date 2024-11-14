@@ -46,11 +46,15 @@ class _LoginScreenState extends State<LoginScreen> {
           children: [
             TextField(
               controller: _usernameController,
-              decoration: InputDecoration(labelText: 'Username'),
+              decoration: InputDecoration(
+                labelText: 'Username',
+                icon: const Icon(Icons.person), // Replace with your chosen icon
+              ),
             ),
             TextField(
               controller: _passwordController,
-              decoration: InputDecoration(labelText: 'Password'),
+              decoration: InputDecoration(
+                  labelText: 'Password', icon: const Icon(Icons.password)),
               obscureText: true,
             ),
             SizedBox(height: 20),
