@@ -90,4 +90,21 @@ final List<Candi> candiList = [
       "images/ratu_boko.jpg",
     ],
   ),
+  Candi(
+      name: "Candi Baalbek",
+      location: "Lebanon, Litani River",
+      builtIn: "Abad ke - 11",
+      type: "Romawi",
+      description:
+          "Merupakan bangunan reruntuhan kuil Romawi kuno yang megah dan sangat terawat",
+      gallery: ["images/baalbek.jpg"])
+  Candi(
+    name: "Akshardham", 
+    location: "Pandav Nagar, Delhi", 
+    builtIn: "Abad ke - 21", 
+    type: "Hindu", 
+    description: "Akshardham dibangun dengan menggunakan marmer putih dan merah muda yang indah, serta dihiasi dengan ukiran-ukiran yang rumit. Desain bangunannya terinspirasi oleh arsitektur tradisional India.", 
+    gallery: 
+    ["images/Akshardham.jpg"]
+    )
 ];

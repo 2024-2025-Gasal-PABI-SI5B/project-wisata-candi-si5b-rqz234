@@ -30,15 +30,15 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: _selectedIndex == 0 
-        ? AppBar(title: Text('Wisata Candi')) 
-        : null, // Hanya tampilkan app bar dengan judul di HomeScreen
+      appBar: _selectedIndex == 0
+          ? AppBar(title: Text('Wisata Candi'))
+          : null, // Hanya tampilkan app bar dengan judul di HomeScreen
       body: _screens[_selectedIndex], // Menampilkan screen yang dipilih
       bottomNavigationBar: BottomNavigationBar(
         currentIndex: _selectedIndex,
         onTap: _onItemTapped,
         unselectedItemColor: Colors.black, // Ikon tidak terpilih berwarna hitam
-        selectedItemColor: Colors.blue,    // Ikon terpilih berwarna biru
+        selectedItemColor: Colors.blue, // Ikon terpilih berwarna biru
         items: const [
           BottomNavigationBarItem(
             icon: Icon(Icons.home),
